@@ -1,6 +1,6 @@
 #!/bin/sh
 
-VALUE=$(sh -c "${PLUGIN_COMMAND}")
+VALUE=$(sh -c "${PLUGIN_SH_CMD}")
 
 cd $pwd/eve
 
