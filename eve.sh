@@ -2,7 +2,7 @@
 
 VALUE=$(sh -c "${PLUGIN_SH_CMD}")
 
-cd $pwd/eve
+cd eve
 
 grep -H -o -r "${PLUGIN_VARIABLE} [0-9a-fA-F]*$" * | while read LINE
 do
